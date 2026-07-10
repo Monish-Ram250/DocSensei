@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.local
+
+# Temporary Files
+uploads/*
+temp/*
+
+# Keep the folders in Git
+!uploads/.gitkeep
+!temp/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build Files
+dist/
+build/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Flask
+instance/
