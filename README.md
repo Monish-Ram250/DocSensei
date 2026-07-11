@@ -209,3 +209,11 @@ If the answer isn't in the documents, the assistant responds exactly with:
 - Each component (loader, chunker, retriever, router, rewriter, reranker, compressor, memory) is independent and can be swapped or extended without touching the others.
 - Designed to be dependency-light where possible — chunking, dense retrieval, and document loading are custom implementations rather than heavy framework abstractions (e.g., no LangChain).
 - Every LLM call that expects structured output (router, compression, summarization, suggested questions) strips markdown code fences before JSON parsing and has an explicit fallback path if parsing or the API call fails.
+
+## Demonstration Video
+
+A complete demonstration of **DocSensei** is available at the following Google Drive link. The video provides an overview of the system, including document ingestion, intelligent retrieval, adaptive RAG workflow, and response generation.
+
+**Demo Video:** https://drive.google.com/file/d/1wA-c39SlXVfuX589gD_dTzUxCsD7Fb6y/view?usp=drive_link
+
+- 
